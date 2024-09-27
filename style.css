@@ -1,0 +1,35 @@
+.btn {
+    margin-right: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+img {
+    max-width: 300px; /* Mengatur lebar maksimum gambar */
+    height: auto; /* Mengatur tinggi agar proporsional */
+    display: block; /* Agar gambar tidak bergeser */
+    margin: 0 auto; /* Agar gambar berada di tengah */
+}
+
+/* Mengatur warna dan border untuk tombol Edit */
+.edit-btn {
+    background-color: #0d6efd !important; /* Warna biru tua */
+    color: white !important; /* Warna teks putih */
+    border: none !important; /* Menghilangkan border */
+}
+
+/* Menghapus outline dan box-shadow kuning pada saat tombol diklik atau fokus */
+.edit-btn:focus, 
+.edit-btn:active {
+    outline: none !important; /* Menghilangkan outline default */
+    box-shadow: none !important; /* Menghilangkan shadow kuning Bootstrap */
+}
+
+
+
